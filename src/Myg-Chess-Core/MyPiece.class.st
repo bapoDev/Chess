@@ -12,17 +12,13 @@ Class {
 { #category : 'constants' }
 MyPiece class >> black [
 
-	^ self new
-		  color: Color black;
-		  yourself
+	^ MyBlackPawn new.
 ]
 
 { #category : 'constants' }
 MyPiece class >> white [
 
-	^ self new
-		  color: Color white;
-		  yourself
+	^ MyWhitePawn new.
 ]
 
 { #category : 'as yet unclassified' }
